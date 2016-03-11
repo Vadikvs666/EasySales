@@ -13,6 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        easysales.cpp
+        easysales.cpp \
+    document.cpp
 
-HEADERS  += easysales.h
+HEADERS  += easysales.h \
+    document.h
