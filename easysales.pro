@@ -16,9 +16,11 @@ SOURCES += main.cpp\
         easysales.cpp \
     document.cpp \
     user.cpp \
-    body.cpp
+    body.cpp \
+    fieldlist.cpp
 
 HEADERS  += easysales.h \
     document.h \
     user.h \
-    body.h
+    body.h \
+    fieldlist.h

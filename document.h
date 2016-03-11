@@ -3,6 +3,8 @@
 #include <QString>
 #include <QDate>
 #include "user.h"
+#include "body.h"
+#include "fieldlist.h"
 
 class document
 {
@@ -21,10 +23,12 @@ public:
     User author() const;
     void setAuthor(const User &author);
 
-protected:
+private:
     QString _number;
     QDate _date;
     User _author;
+    Body<fieldlist> _body;
+
 
 
 };
