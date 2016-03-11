@@ -14,7 +14,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         easysales.cpp \
-    document.cpp
+    document.cpp \
+    user.cpp
 
 HEADERS  += easysales.h \
-    document.h
+    document.h \
+    user.h
